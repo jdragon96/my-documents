@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-10-24T12:54:02.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="zSRD4FCRQuo6A7sl67mN" version="22.0.2" type="device" pages="4">
+<mxfile host="Electron" modified="2023-10-24T13:03:09.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="6Vw4lwSZCyb5NidwAh7f" version="22.0.2" type="device" pages="4">
   <diagram id="_4BQD0DVEFqlqM7314NB" name="깃허브 설정하기">
     <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IfqmHbeodA7KW2ccSIst" name="머지하기">
-    <mxGraphModel dx="-208" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-355" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,19 +95,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wTD8dzqyEoJEbiK2ZyVc-13" value="Commit #2" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="170" width="120" height="120" as="geometry" />
+          <mxGeometry x="1110" y="170" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wTD8dzqyEoJEbiK2ZyVc-14" value="Commit #3" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="170" width="120" height="120" as="geometry" />
+          <mxGeometry x="1360" y="170" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wTD8dzqyEoJEbiK2ZyVc-15" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="wTD8dzqyEoJEbiK2ZyVc-14">
-          <mxGeometry x="65" y="70" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wTD8dzqyEoJEbiK2ZyVc-18" value="HEAD min" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="110" width="130" height="30" as="geometry" />
+        <mxCell id="wTD8dzqyEoJEbiK2ZyVc-18" value="HEAD main" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="120" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wTD8dzqyEoJEbiK2ZyVc-19" value="HEAD branch1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="110" width="140" height="30" as="geometry" />
+          <mxGeometry x="1350" y="130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1mmvnz8r7AzF8e-13eee-1" value="&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;$ git add .&lt;br&gt;$ git commit -m &quot;edit code&quot;&lt;br&gt;$ git push origin branch1&lt;br&gt;$ git log --oneline --branches --graph&lt;br&gt;&amp;gt; 42d8185 (HEAD -&amp;gt; master, origin/master) first commit&lt;br style=&quot;padding: 0px; margin: 0px; font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;gt; 4c65e3e (origin/main) Initial commit&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="340" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1mmvnz8r7AzF8e-13eee-3" value="&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;$&amp;nbsp; git clone &quot;저징소&quot; -b main&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="310" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
